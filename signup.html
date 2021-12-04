@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <title>Signup</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="mystyle.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Bon Appetit</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About </a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li class="services"><a href="location.html">Location</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Sign In</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="box">
+        <div class="container">
+            <div class="title">Sign up</div>
+            <form action="login.html" onsubmit="return myFunction()">
+                <div class="user_details">
+                    <div class="input_box">
+                        <label>Fullname:</label>
+                        <input type="text" placeholder="Enter your name" id="firstname" required>
+                        <span id="first" style="color: red;font-size: 11.5px;"></span>
+                    </div>
+                    <div class="input_box">
+                        <label>Username:</label>
+                        <input type="text" placeholder="Enter your username" id="username" required>
+                        <span id="user" style="color: red;font-size: 11.5px;"></span>
+                    </div>
+                    <div class="input_box">
+                        <label>Email:</label>
+                        <input type="text" placeholder="abc@example.com" id="email" required>
+                        <span id="email123" style="color: red;font-size: 11.5px;"></span>
+                    </div>
+                    <div class="input_box">
+                        <label>Phone Number:</label>
+                        <input type="text" placeholder="91xxxxxxxx" id="number" required>
+                        <span id="pno" style="color: red;font-size: 11.5px;"></span>
+                    </div>
+                    <div class="input_box">
+                        <label>Password:</label>
+                        <input type="password" placeholder="Enter your password" id="password" required>
+                        <span id="pass" style="color: red;font-size: 11.5px;"></span>
+                    </div>
+                    <div class="input_box">
+                        <label>Confirm Password: </label>
+                        <input type="password" placeholder="Confirm your password" id="conpassword" required>
+                        <span id="pass1" style="color: red;font-size: 11.5px;"></span>
+                    </div>
+                </div>
+                <div class="gender_details">
+                    <p>Gender</p>
+                    <div class="category">
+                        <div><input type="radio" name="radio" id="check1"> Male</div>
+                        <div><input type="radio" name="radio" id="check2"> Female</div>
+                        <div><input type="radio" name="radio" id="check3"> Prefer not to mention</div>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit">
+                    <center><label style="font-size: 15px;margin-top: 70px;color: rgb(207, 153, 82);;">By signing up, you're agreeing to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label></center>
+                </div>
+                <div>
+                    <label>Existing member? <a href="login.html">Signup</a></label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="contain">
+            <div class="col" style: "align=left"><img src="2.png" width="150px"></div>
+            <div class="col">
+                <h1>Company</h1>
+                <ul>
+                    <li>Who we are</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>For Foodies</h1>
+                <ul>
+                    <li>Code of Conduct</li>
+                    <li>Community</li>
+                    <li>Blog</li>
+                    <li>Social</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>For Restaurants</h1>
+                <ul>
+                    <li>Add Restaurant</li>
+
+                </ul>
+            </div>
+            <div class="col">
+                <h1>For Enterprises</h1>
+                <ul>
+                    <li>Apply for Work</li>
+
+                </ul>
+            </div>
+            <div class="col">
+                <h1>For You</h1>
+                <ul>
+                    <li>Privacy</li>
+                    <li>Terms </li>
+                    <li>Site map</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Support</h1>
+                <ul>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="col social">
+                <h1>Social</h1>
+                <ul>
+                    <li><img src="f.png" width="32" style="width: 52px;"></li>
+                    <li><img src="t.png" width="32" style="width: 32px;"></li>
+
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            // Get the value of the input field
+            let a = document.getElementById("firstname").value;
+            let b = document.getElementById("username").value;
+            let c = document.getElementById("email").value;
+            let d = document.getElementById("number").value;
+            let e = document.getElementById("password").value;
+            let f = document.getElementById("conpassword").value;
+
+
+            let text;
+            if (!(/^[a-zA-Z]{2,}$/.test(a))) {
+                document.getElementById("firstname").setAttribute("style", "border-color: #c92432;background:#fffafa;color:#c92432");
+                document.getElementById("first").innerHTML = "Please enter a valid name!";
+                return false;
+            } else if (!(/^[a-zA-Z]{2,}$/.test(b))) {
+                document.getElementById("username").setAttribute("style", "border-color: #c92432;background:#fffafa;color:#c92432");
+                document.getElementById("user").innerHTML = "Please enter a valid name!";
+                return false;
+            } else if (!(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(c))) {
+                document.getElementById("email").setAttribute("style", "border-color: #c92432;background:#fffafa;color:#c92432");
+                document.getElementById("email123").innerHTML = "Please enter a valid Email!";
+                return false;
+            } else if (!(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,9}$/.test(e))) {
+                document.getElementById("password").setAttribute("style", "border-color: #c92432;background:#fffafa;color:#c92432");
+                document.getElementById("pass").innerHTML = "Please enter a Strong password!";
+                return false;
+            } else if (!(e == f)) {
+                document.getElementById("conpassword").setAttribute("style", "border-color: #c92432;background:#fffafa;color:#c92432");
+                document.getElementById("pass1").innerHTML = "Password is not matching!";
+                return false;
+            } else if (!(/^[0-9]{10,10}$/.test(d))) {
+                document.getElementById("number").setAttribute("style", "border-color: #c92432;background:#fffafa;color:#c92432");
+                document.getElementById("pno").innerHTML = "Please enter a valid phone number!";
+                return false;
+            } else if (!(document.getElementById('check1').checked || document.getElementById('check2').checked || document.getElementById('check3').checked)) {
+                alert("please select the gender");
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+</body>
+
+</html>
