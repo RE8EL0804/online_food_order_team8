@@ -10,40 +10,40 @@ This website is created and submitted for the User Interface Design Subject
 
 ####  The Main Page
 
-![]https://github.com/RE8EL0804/online_food_order_team8/blob/main/main.PNG
+(https://github.com/RE8EL0804/online_food_order_team8/blob/main/main.PNG)
 
 #### The About Us Page
 
-![about]https://github.com/RE8EL0804/online_food_order_team8/blob/main/about.PNG
+(https://github.com/RE8EL0804/online_food_order_team8/blob/main/about.PNG)
 
 
 
 #### The Menu Page
 
-![menu]https://github.com/RE8EL0804/online_food_order_team8/blob/main/menu.PNG
+https://github.com/RE8EL0804/online_food_order_team8/blob/main/menu.PNG
 
 
 #### The Location Page
 
-![loc]https://github.com/RE8EL0804/online_food_order_team8/blob/main/location.PNG
+(https://github.com/RE8EL0804/online_food_order_team8/blob/main/location.PNG)
 
 
 
 #### The Reservation Page
 
-![reser]https://github.com/RE8EL0804/online_food_order_team8/blob/main/reservation.PNG
+(https://github.com/RE8EL0804/online_food_order_team8/blob/main/reservation.PNG)
 
 
 
 #### Sign Up
 
-![sihn]https://github.com/RE8EL0804/online_food_order_team8/blob/main/sihn.PNG
+(https://github.com/RE8EL0804/online_food_order_team8/blob/main/sihn.PNG)
 
 
 
 #### Sign In
 
-![signin]https://github.com/RE8EL0804/online_food_order_team8/blob/main/signin.PNG
+(https://github.com/RE8EL0804/online_food_order_team8/blob/main/signin.PNG)
 
 
 
