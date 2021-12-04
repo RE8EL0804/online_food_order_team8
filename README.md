@@ -20,18 +20,18 @@ This website is created and submitted for the User Interface Design Subject
 
 #### The Menu Page
 
-![]https://github.com/RE8EL0804/online_food_order_team8/blob/main/menu.PNG
+![](https://github.com/RE8EL0804/online_food_order_team8/blob/main/menu.PNG)
 
 
 #### The Location Page
 
-![](https://github.com/RE8EL0804/online_food_order_team8/blob/main/location.PNG)
+![](https://github.com/RE8EL0804/online_food_order_team8/blob/main/loc.PNG)
 
 
 
 #### The Reservation Page
 
-![](https://github.com/RE8EL0804/online_food_order_team8/blob/main/reservation.PNG)
+![](https://github.com/RE8EL0804/online_food_order_team8/blob/main/reser.PNG)
 
 
 
