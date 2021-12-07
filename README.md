@@ -67,18 +67,18 @@ We have implemented the following :
   - Git Hub
 
 ## References
-https://freefrontend.com/css-image-effects/
-http://rstheme.com/products/wordpress/ristora/menu/#dinner
-http://rstheme.com/products/wordpress/ristora/menu/#dinner
-https://www.logomaker.net/
-https://www.socialsamosa.com/wp-content/uploads/2020/01/2020-01-16.jpg
-https://b.zmtcdn.com/data/collections/b22194cb38ed18a5200b387ad8f243f0_1582015789.jpg
-https://news.harvard.edu/wp-content/uploads/2020/01/healthy-diet-gray-background_2500-1200x800.jpg
-https://www.youtube.com/watch?v=eeHqZeJ9Vqc&t=6s
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fvideohive.net%2Fitem%2Fdynamic-4k-food-menu%2F21165889&psig=AOvVaw03T7zUwHjZU2X8xDfZybDk&ust=1638939883590000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCND9pv_00PQCFQAAAAAdAAAAABAD
-https://wallpaperaccess.com/full/826922.jpg
-https://www.youtube.com/watch?v=5BeM3-_8788&t=39s
-https://www.youtube.com/watch?v=okbByPWS1Xc
+https://freefrontend.com/css-image-effects/ <br>
+http://rstheme.com/products/wordpress/ristora/menu/#dinner <br>
+http://rstheme.com/products/wordpress/ristora/menu/#dinner <br>
+https://www.logomaker.net/ <br>
+https://www.socialsamosa.com/wp-content/uploads/2020/01/2020-01-16.jpg <br>
+https://b.zmtcdn.com/data/collections/b22194cb38ed18a5200b387ad8f243f0_1582015789.jpg <br>
+https://news.harvard.edu/wp-content/uploads/2020/01/healthy-diet-gray-background_2500-1200x800.jpg <br>
+https://www.youtube.com/watch?v=eeHqZeJ9Vqc&t=6s <br>
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fvideohive.net%2Fitem%2Fdynamic-4k-food-menu%2F21165889&psig=AOvVaw03T7zUwHjZU2X8xDfZybDk&ust=1638939883590000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCND9pv_00PQCFQAAAAAdAAAAABAD <br>
+https://wallpaperaccess.com/full/826922.jpg <br>
+https://www.youtube.com/watch?v=5BeM3-_8788&t=39s <br>
+https://www.youtube.com/watch?v=okbByPWS1Xc <br>
 
 ## The Team
 
