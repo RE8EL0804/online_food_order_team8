@@ -1,254 +1,385 @@
-<html>
+<html >
+ <head>
+   <title>Bon Appetit</title>
+   <link rel="stylesheet" href="doc.css"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <script src="https://kit.fontawesome.com/2e21fb0534.js" crossorigin="anonymous"></script>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+ 
+   <style>
+   li {
+    list-style: none;
+}
 
-<head>
-    <title>Bon Appetit</title>
-    <link rel="icon" href="logo.png">
-    <link rel="stylesheet" href="doc.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <style>
+.navbar {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    color: #fff;
+    height: auto;
+}
 
-    </style>
-    <script>
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
-    </script>
-</head>
+.nav-links a {
+    text-decoration: none;
+    color:#ffffff;
+    padding: 20px 20px;
+}
 
-<body>
-    <div class="bg">
-        <nav class="navbar">
-            <div class="logo">
-                Bon Appetit </div>
-            <ul class="nav-links">
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                <div class="menu">
-                    <li><a href="index.html">Home</a></li>
+.nav-links a:hover {
+    color:#d09c54;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logo {
+    font-family: 'Cookie',cursive;
+    font-size: 32px;
+    text-align: left;
+    padding: 15px 65px;
+}
+
+.menu {
+    display: flex;
+    font-size: 18px;
+}
+
+.dropdown {
+    background-color: rgb(207, 153, 82);
+    padding: 1em 0;
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: rgb(207, 153, 82);
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+   input[type=checkbox]{
+    display: none;
+   } 
+
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+   }
+   @media (max-width: 1023px) {
+   .menu { 
+    display:none;
+    position: absolute;
+    background-color:rgb(207, 153, 82);
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+   }
+  
+   .menu li + li {
+    margin-top: 12px;
+   }
+
+   .nav-links a {
+       display: block;
+        text-decoration: none;
+         color:#ffffff;
+         padding: 3px;
+         transition: all 1.5 ease;
+}
+    .nav-links a:hover{
+        padding: 3px;
+    }
+
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+   }
+   .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+   }
+}
+   .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; 
+  }
+
+  </style>
+ </head>
+
+
+ <body>
+  <div class="bg"> 
+    <nav class="navbar">
+      <div class="logo">Bon Appetit</div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+          <li><a href="index.html">Home</a></li>
                     <li><a href="about_us.html">About </a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li class="services"><a href="location.html">Location</a></li>
                     <li><a href="reservation.html">Reservation</a></li>
                     <li><a href="signup.html">Sign Up</a></li>
                     <li><a href="login.html">Sign In</a></li>
-                </div>
-            </ul>
-        </nav>
-        <center>
-            <div class="popup" onclick="myFunction()"> <img src="2.png" width="250px"><span class="popuptext" id="myPopup">Welcome!</span></div>
-            <h1 style=" font-family:  'Pacifico', cursive; color:white;"><i>Discover the Finest Foods  & Drinks in India </i></h1>
-            <br>
-            <br>
-            <form>
-                <input type="select" name="search" placeholder="Search for destination or cuisine">
-            </form>
-        </center>
+        </div>
+      </ul>
+    </nav>
+    <br><br>
+ <center>
+  <hr style="width:40%;height:2px;border-width:0;background-color:rgb(207, 153, 82)"> 
+  <img src="2.png" width="250px" style="opacity: 0.8;">
+  <hr style="width:40%;height:2px;border-width:0;background-color:rgb(207, 153, 82)">
+<br><br><br>
+<h1 style=" font-family:  Brush Script MT; color:rgb(207, 153, 82);font-size: 20px;"><i>BON APPLET </i></h1>
+<br>
+<h1 style=" font-family:  Bahnschrift; color:white;font-size: 50px;">Discover the Finest Foods  & Drinks in India</h1>
+<br>
+<br>
+<form>
+  <input type="select" name="search" placeholder="Search for destination or cuisine" style="border-radius: 20px;">
+</form>
+</center>
+</div>
+</div>
+
+<br><br>
+
+<div class="box">
+  <div class="container">
+    <div class="box1">
+      <div class="iimage">
+        <img src="https://www.socialsamosa.com/wp-content/uploads/2020/01/2020-01-16.jpg" style="width:100%;height:100%;border-radius: 20px 20px 0 0;">
+      </div>
+      <div class="texxt">
+        <center><h3>Online Food ordering</h3></center>
+      </div>
     </div>
+    <div class="box2">
+      <div class="iimage">
+        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/food-menu-ads-design-template-2cbc190d4f2fe74f98a867e7182f6154_screen.jpg?ts=1619749418" style="width:100%;height:100%;border-radius: 20px 20px 0 0;">
+      </div>
+      <div class="texxt">
+        <center><h3>Go out for a meat</h3></center>
+      </div>
     </div>
-    <br>
-    <br>
-    <div class="box">
-        <div class="container">
-            <div class="box1" style="background-image:url('https://c4.wallpaperflare.com/wallpaper/869/719/717/cuisine-food-india-indian-wallpaper-preview.jpg');">
-                <div class="overlay">
-                    <div class="text">Order Food Online </div>
-                </div>
-            </div>
-            <div class="box2" style="background-image:url('https://media.istockphoto.com/photos/varied-food-carbohydrates-protein-vegetables-fruits-dairy-legumes-on-picture-id1218254547?b=1&k=20&m=1218254547&s=170667a&w=0&h=mOEC7x7qU5NC78mCULs-jAPeLkxy8opOvIbGSnwmAyw=')"></div>
-            <div class="box3" style="background-image:url('https://thumbs.dreamstime.com/b/fast-food-concept-greasy-fried-restaurant-take-out-as-onion-rings-burger-hot-dogs-fried-chicken-french-fries-31114163.jpg')"></div>
+    <div class="box3">
+      <div class="iimage">
+        <img src="https://www.mdpi.com/foods/foods-09-00051/article_deploy/html/images/foods-09-00051-g0A2.png" style="width:100%;height:100%;border-radius: 20px 20px 0 0;">
+      </div>
+      <div class="texxt">
+        <center><h3>Delicious Food</h3></center>
+      </div>
+    </div>
+      <div class="box4">
+        <div class="iimage">
+          <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/roasted-chicken-ads-design-template-9e3103e4561adb5e083bebc8b4ddd1eb_screen.jpg?ts=1620885257" style="width:100%;height:100%;border-radius: 20px 20px 0 0;">
+        </div>
+        <div class="texxt">
+          <center><h3>Try it out</h3></center>
         </div>
     </div>
-    <br>
-    <div class="column" style="background-image:url('3.jpg'); opacity:0.5;">
-        <center><b><h1  style="font-family:Roboto;color:white;font-weight:80%;"><br><br>Nothing <br>Brings <br> People <br>Together Like  <br>Good Food</h1></b></center>
-    </div>
-    <div class="column" style="background-image:url('https://b.zmtcdn.com/data/collections/b22194cb38ed18a5200b387ad8f243f0_1582015789.jpg');opacity:0.5;">
-        <center>
-            <h2 style="font-family:fantasy;color:black;font-weight:80%;"><br><br><br><br>Part of the secret of <br><br> success is to <i>eat what you <br><br>like<i> and let the food fight it <br><br>out inside.</h2></center></div>
-<div class="column" style="background-image:url('https://news.harvard.edu/wp-content/uploads/2020/01/healthy-diet-gray-background_2500-1200x800.jpg');opacity:0.5;">
-  <center><h2   style="font-family:Roboto;color:black;font-weight:80%;"><br><br><br><br>The only time <br><br>to eat diet food is <br><br>while you're waiting <br><br>for the steak to cook</h2></center></div>
+  </div>
+</div>
+
+<br>
+
+<div class="column" style="background:rgba(0,0,0,0.5)url('3.jpg');">
+  <center><b><h1  style="font-family:Roboto;color:rgb(207, 153, 82);font-weight:500;"><br><br>Nothing <br>Brings <br> People <br>Together Like  <br>Good Food</h1></b></center>
+</div>
+<div class="column" style="background:rgba(0,0,0,0.5)url('https://b.zmtcdn.com/data/collections/b22194cb38ed18a5200b387ad8f243f0_1582015789.jpg');">
+  <center><h2   style="font-family:fantasy;color:white;font-weight:500;"><br><br><br><br>Part of the secret of <br><br> success is to <i>eat what you <br><br>like<i> and let the food fight it <br><br>out inside.</h2></center></div>
+<div class="column" style="background:rgba(0,0,0,0.5)url('https://news.harvard.edu/wp-content/uploads/2020/01/healthy-diet-gray-background_2500-1200x800.jpg');">
+  <center><h2   style="font-family:Roboto;color:rgb(207, 153, 82);font-weight:500;"><br><br><br><br>The only time <br><br>to eat diet food is <br><br>while you're waiting <br><br>for the steak to cook</h2></center></div>
   <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
   <hr style="width:100%;height:2px;border-width:0;color:gray;background-color:gray">
-  <br>
-<article class="all">
-  <br>
-<center><h3> Cities We Deliver To</h3><br></center>
-  <h4 style="color:white">
-    <table style="color:white;">
-      <i>
-      <tr>
-        <td>Delhi NCR</td>
-        <td>Kolkata</td>
-        <td>Mumbai</td>
-        <td>Bengaluru</td>
-      </tr>
-     
-       <tr>
-        <td>Hyderabad</td>
-        <td>Chennai</td>
-        <td>Lucknow</td>
-        <td>Jaipur</td>
-      </tr>
-      
-      <tr>
-        <td>Manipal</td>
-        <td>Puducherry</td>
-        <td>Amritsar</td>
-        <td>Thrissur</td>
-      </tr></i>
-                </table>
-                <br>
-                </article>
-                <div class="row">
-                    <div class="collumn left" style="background-image:url('https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/vegetarian-indian-dinner-recipes.jpg');background-repeat:no; background-size:100% 100%">
 
-                    </div>
-
-                    <div class="collumn middle" style="background-image: linear-gradient(#181414, #444c52);">
-                        <center>
-                            <h2 style="color: white" id="bre">Popular Cuisines near me</h2>
-                            <ul style: "align=left;">
-                                <li class="li1">Arabian food near me</li>
-                                <li class="li1">Bakery food near me.</li>
-                                <li class="li1">Beverages food near me</li>
-                                <li class="li1">Cafe food near me</li>
-                                <li class="li1">Pizza food near me</li>
-
-                    </div>
-
-                </div>
-                <hr style="width:100%;height:2px;border-width:0;color:gray;background-color:gray">
-                <br>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="collumn middle" style="background-image: linear-gradient(#181414, #444c52);">
-                        <center>
-                            <h2 style="color: white" id="lun">Popular Restaurant </h2>
-                            <ol style: "align=left;">
-                                <li class="li1">Biryani, Curd rice</li>
-                                <li class="li1">Chana Kulcha</li>
-                                <li class="li1">Idli.</li>
-                                <li class="li1">Kolhapuri Vegetables.</li>
-                                <li class="li1">Black Channa and Coconut Stew.</li>
-                                <li class="li1">Shahi Egg Curry .</li>
-
-                    </div>
-                    <div class="collumn left" style="background-image:url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/wdy050121nationalmonth-003-1621446470.jpg?crop=0.412xw:0.618xh;0.391xw,0.377xh&resize=640:*');background-repeat:no; background-size:100% 100%">
-                        <br>
-                        <br>
-                    </div>
-
-                </div>
-                <hr style="width:100%;height:2px;border-width:0;color:gray;background-color:gray">
-                <br>
-                <br>
-
-
-    </div>
-    <br>
-    <br>
-    <div class="row">
-        <div class="collumn left" style="background-image:url('https://i.pinimg.com/originals/c9/c1/8e/c9c18eea2d0b86f7dd276d0aa90a99f1.gif');">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
+<div class="box111">
+  <div class="title111">
+    <center><p id="blog111">BLOG POST</p>
+    <p id="post111">Check them out for a tasty snack</p></center>
+  </div>
+  <img src="burg.png" style="height: 100%;width: 20%;">
+</div>
+  
+  <div class="bigbox">
+    <br><br><br><br>
+    <div class="boxes">
+      <div class="row1">
+        <div class="left_section">
+          <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/vegetarian-indian-dinner-recipes.jpg" style="width:100%;height:100%;">
         </div>
-        <div class="collumn middle" style="background-color:white ;">
-            <center>
-                <div class="center">
-                    <h1>Chat With Executive</h1>
-                    <form>
-                        <div class="inputbox">
-                            <input type="text" required="required">
-                            <span>Name</span>
-                        </div>
-                        <div class="inputbox">
-                            <input type="text" required="required">
-                            <span>Type your Message...</span>
-                        </div>
-                        <div class="inputbox">
-                            <input type="button" value="submit">
-                        </div>
-                    </form>
-                </div>
-
+        <div class="right_section">
+          <div class="tittlee" style="align-items: right;">
+              
+            <center><span><i class="fas fa-concierge-bell"></i></span> <h2>Popular Cuisines near me</h2>
+              <hr style="width:40%;height:2px;border-width:0;background-color:rgb(207, 153, 82)"></center>
+          </div>
+          <div class="food_items">
+            <div class="item_1">
+              <h3>Arabian food near me</h3>
+              <p>Bar and coffee roastery restaurant located on a busy corner in market side</p>
+            </div>
+            <div class="item_1">
+              <h3>Bakery food near me.</h3>
+              <p>Bar and coffee roastery restaurant located on a busy corner in market side</p>
+            </div>
+            <div class="item_1">
+              <h3>Beverages food near me</h3>
+              <p>Bar and coffee roastery restaurant located on a busy corner in market side</p>
+            </div>
+            <div class="item_1">
+              <h3>Pizza food near me</h3>
+              <p>Bar and coffee roastery restaurant located on a busy corner in market side</p>
+            </div>
+          </div>
         </div>
-        </form>
-        <br>
-        <br>
+      </div>
     </div>
 
-    </div>
+    <br><br>
 
-
-    <hr style="width:100%;height:2px;border-width:0;color:gray;background-color:gray">
-    <br>
-    <br>
-    <div class="footer">
-        <div class="contain">
-            <div class="col" style: "align=left"><img src="2.png" width="150px"></div>
-            <div class="col">
-                <h1>Company</h1>
-                <ul>
-                    <li>Who we are</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
-                    <li>Contact</li>
-                </ul>
+    <div class="boxes">
+      <div class="row1">
+        <div class="left_section1">
+          <div class="tittlee">
+              
+            <center><span><i class="fas fa-utensils"></i></span> <h2>Popular Restaurant</h2>
+              <hr style="width:40%;height:2px;border-width:0;background-color:rgb(207, 153, 82)"></center>
+          </div>
+          <div class="food_items">
+            <div class="item_1">
+              <h3>Biryani, Curd rice</h3>
+              <p>Bar and coffee roastery restaurant located on a busy corner in market side</p>
             </div>
-            <div class="col">
-                <h1>For Foodies</h1>
-                <ul>
-                    <li>Code of Conduct</li>
-                    <li>Community</li>
-                    <li>Blog</li>
-                    <li>Social</li>
-                </ul>
+            <div class="item_1">
+              <h3>Chana Kulcha</h3>
+              <p>Bar and coffee roastery restaurant located on a busy corner in market side</p>
             </div>
-            <div class="col">
-                <h1>For Restaurants</h1>
-                <ul>
-                    <li>Add Restaurant</li>
-
-                </ul>
+            <div class="item_1">
+              <h3>Shahi Egg Curry</h3>
+              <p>Bar and coffee roastery restaurant located on a busy corner in market side</p>
             </div>
-            <div class="col">
-                <h1>For Enterprises</h1>
-                <ul>
-                    <li>Apply for Work</li>
-
-                </ul>
+            <div class="item_1">
+              <h3>Kolhapuri Vegetables</h3>
+              <p>Bar and coffee roastery restaurant located on a busy corner in market side</p> 
             </div>
-            <div class="col">
-                <h1>For You</h1>
-                <ul>
-                    <li>Privacy</li>
-                    <li>Terms </li>
-                    <li>Site map</li>
-                </ul>
             </div>
-            <div class="col">
-                <h1>Support</h1>
-                <ul>
-                    <li>Contact us</li>
-                </ul>
-            </div>
-            <div class="col social">
-                <h1>Social</h1>
-                <ul>
-                    <li><img src="f.png" width="32" style="width: 52px;"></li>
-                    <li><img src="t.png" width="32" style="width: 32px;"></li>
-
-                </ul>
-            </div>
-            <div class="clearfix"></div>
         </div>
-    </div>
+        <div class="right_section1">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/wdy050121nationalmonth-003-1621446470.jpg?crop=0.412xw:0.618xh;0.391xw,0.377xh&resize=640:*" style="width:100%;height:100%;">
+        </div>
+      </div>
+  </div>
+<div class="cont12">
+  <div class="box12">
+      <div class="left_section12">
+        <img src="https://i.pinimg.com/originals/c9/c1/8e/c9c18eea2d0b86f7dd276d0aa90a99f1.gif" style="height: 100%;width: 100%;">
+      </div>
+      <div class="right_section12">
+        <div class="title12">
+          <center><h2 style=" font-family:  Brush Script MT; color:rgb(207, 153, 82);font-size: 35px;margin-top: 10px;"><i>BON APPLET </i></h2>
+          <h5 style=" font-family:  Arial, Helvetica, sans-serif; color:white;font-size: 30px;">You are free to <span style=" font-family:  Brush Script MT; color:rgb(207, 153, 82);font-size: 35px;">CONTACT</span> us...</h5></center>
+        </div>
+        <div class="values12">
+          <input type=text placeholder="Your Name">
+          <input type=text placeholder="Your Email">
+          <input type=text placeholder="Your Phone">
+          <input type=text placeholder="Your Gender">
+          <textarea rows="10" cols="47">Enter text here...</textarea>
+        </div>
+      </div>
+  </div>
+</div>
+
+</div>
 
 
 
-</body>
 
+  <hr style="width:100%;height:2px;border-width:0;color:gray;background-color:gray">
+<div class="footer">
+  <div class="contain">
+    <div class="col" style:"align=left"><img src="2.png" width="150px"></div>
+  <div class="col">
+    <h1>Company</h1>
+    <ul>
+      <li>Who we are</li>
+      <li>Blog</li>
+      <li>Careers</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>For Foodies</h1>
+    <ul>
+      <li>Code of Conduct</li>
+      <li>Community</li>
+      <li>Blog</li>
+      <li>Social</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>For Restaurants</h1>
+    <ul>
+      <li>Add Restaurant</li>
+   
+    </ul>
+  </div>
+     <div class="col">
+    <h1>For Enterprises</h1>
+    <ul>
+      <li>Apply for Work</li>
+   
+    </ul>
+  </div>
+  <div class="col">
+    <h1>For You</h1>
+    <ul>
+      <li>Privacy</li>
+      <li>Terms </li>
+      <li>Site map</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Support</h1>
+    <ul>
+      <li>Contact us</li>
+    </ul>
+  </div>
+  <div class="col social">
+    <h1>Social</h1>
+    <ul>
+      <li><img src="f.png" width="32" style="width: 52px;"></li>
+      <li><img src="t.png" width="32" style="width: 32px;"></li>
+
+    </ul>
+  </div>
+<div class="clearfix"></div>
+</div>
+</div>
+
+    
+
+ </body>
 </html>
