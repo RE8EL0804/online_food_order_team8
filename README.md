@@ -10,7 +10,7 @@ This website is created and submitted for the User Interface Design Subject
 
 ####  The Main Page
 
-![](https://github.com/RE8EL0804/online_food_order_team8/blob/main/main.PNG)
+![](https://github.com/RE8EL0804/online_food_order_team8/blob/main/main.png)
 
 #### The About Us Page
 
